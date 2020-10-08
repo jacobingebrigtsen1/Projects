@@ -1,0 +1,125 @@
+/* Grid layout rules */
+/* TODO #1 Edit these rules to match Wireframe 2 diagram */
+.grid-container {
+  display: grid;
+  width:98.5vw;
+  height:45vw;
+  grid-gap:10px 10px;
+  grid-template-columns: repeat( auto-fill, minmax(250px, 1fr) );
+}
+body {
+    display: inline-grid;
+}
+nav {
+    /*Row for up down 1-6*/
+  grid-row-start: 1;
+  grid-row-end: 7 ;
+  /*Column for accross screen 1-5*/
+  grid-column-start: 1; 
+  grid-column-end: 1;
+}
+main{
+      /*Row for up down 1-6*/
+  grid-row-start: 1;
+  grid-row-end: 1 ;
+  /*Column for accross screen 1-5*/
+  grid-column-start: 6; 
+  grid-column-end: 6;  
+}
+aside { 
+    /*Row for up down 1-6*/
+  grid-row-start: 2;
+  grid-row-end: 7 ;
+  /*Column for accross screen 1-5*/
+  grid-column-start: 6; 
+  grid-column-end: 6;
+    
+}
+#paragraph1{
+    /*Row for up down 1-6*/
+  grid-row-start: 1;
+  grid-row-end: 4 ;
+  /*Column for accross screen 1-4*/
+  grid-column-start: 3; 
+  grid-column-end: 4;
+    background-color: whitesmoke;
+    margin: 0px;
+    padding:2rem;
+    
+}
+#paragraph2{
+  /*Row for up down 1-6*/
+  grid-row-start: 4;
+  grid-row-end: 7 ;
+  /*Column for accross screen 1-4*/
+  grid-column-start: 3; 
+  grid-column-end: 4; 
+    background-color:whitesmoke;
+    margin: 0px;
+    padding:2rem;
+}
+    #image3{
+      /*Row for up down 1-6*/
+    grid-row-start: 1;
+    grid-row-end: 4 ;
+    /*Column for accross screen 1-4*/
+    grid-column-start: 5; 
+    grid-column-end: 5;
+      background-color: gainsboro;
+      margin: 0px;
+      width:100%;
+      
+  }
+  #image4{
+    /*Row for up down 1-6*/
+    grid-row-start: 4;
+    grid-row-end: 7 ;
+    /*Column for accross screen 1-4*/
+    grid-column-start: 5; 
+    grid-column-end: 5; 
+      background-color:gainsboro;
+      margin: 0px;
+      width:100%;
+}
+#image1{
+    /*Row for up down 1-6*/
+  grid-row-start: 1;
+  grid-row-end: 4 ;
+  /*Column for accross screen 1-4*/
+  grid-column-start: 2; 
+  grid-column-end: 3;
+    background-color:gainsboro;
+    width:100%;
+}
+#image2{
+  /*Row for up down 1-6*/
+  grid-row-start: 4;
+  grid-row-end: 7 ;
+  /*Column for accross screen 1-4*/
+  grid-column-start: 2; 
+  grid-column-end: 3;
+    background-color:gainsboro;
+    width:100%;
+}
+#paragraph3{
+  /*Row for up down 1-6*/
+grid-row-start: 1;
+grid-row-end: 4 ;
+/*Column for accross screen 1-4*/
+grid-column-start: 4; 
+grid-column-end: 5;
+  background-color:whitesmoke;
+  margin: 0px;
+  padding:2rem;
+}
+#paragraph4{
+/*Row for up down 1-6*/
+grid-row-start:4;
+grid-row-end: 7 ;
+/*Column for accross screen 1-4*/
+grid-column-start: 4; 
+grid-column-end: 5;
+  background-color:whitesmoke;
+  margin: 0px;
+  padding:2rem;
+}

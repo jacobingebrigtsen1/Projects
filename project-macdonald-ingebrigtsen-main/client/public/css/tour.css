@@ -1,0 +1,29 @@
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-basis: auto;
+  gap: 4%;
+  align-items: flex-start;
+}
+
+img {
+  max-width: 40%;
+  height: auto;
+}
+
+main > p {
+  flex-grow: 3;
+  
+  padding: 1rem;
+  border: 2px solid black;
+}
+
+aside {
+  flex-grow: 1.5;
+}
+
+button {
+  height: fit-content;
+  padding: 2rem;
+}

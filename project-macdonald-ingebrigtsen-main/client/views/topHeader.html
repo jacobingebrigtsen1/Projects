@@ -1,0 +1,50 @@
+<style>
+    body {
+        margin: 0;
+    }
+
+    #contain {
+        display: flex;
+        flex-direction: row;
+        height: 4rem;
+
+    }
+
+    #left {
+        display: flex;
+        flex-direction: row;
+        flex-grow: 1;
+        padding: .5rem;
+    }
+
+    #right {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        flex-grow: 1;
+        padding: .5rem;
+    }
+
+    h1 {
+        margin: auto 1rem;
+    }
+
+    button {
+        padding: 1rem;
+        margin-right: 1rem;
+    }
+</style>
+
+<div id="contain">
+    <div onclick="window.top.location.href='/tour'" id="left">
+        <img src="/images/Recall.webp">
+        <h1>Virtual Tour</h1>
+
+    </div>
+    <div id="right">
+        <button onclick="window.top.location.href='/preferences'">Preferences</button>
+        <button onclick="window.top.location.href='/about'">About</button>
+
+    </div>
+
+</div>

@@ -1,0 +1,85 @@
+/* Grid layout rules */
+/* TODO #1 Edit these rules to match Wireframe 2 diagram */
+.grid-container {
+  display: grid;
+  width:100vw;
+  height:45vw;
+  grid-gap:10px 10px;
+}
+body {
+    display: inline-grid;
+}
+
+header{
+  /*Row for up down 1-6*/
+  grid-row-start: 1;
+  grid-row-end: 1 ;
+  /*Column for accross screen 1-5*/
+  grid-column-start: 1; 
+  grid-column-end: 7;
+}
+
+nav {
+    /*Row for up down 1-6*/
+  grid-row-start: 2;
+  grid-row-end: 5 ;
+  /*Column for accross screen 1-5*/
+  grid-column-start: 1; 
+  grid-column-end: 1;
+}
+main{
+      /*Row for up down 1-6*/
+  grid-row-start: 2;
+  grid-row-end: 2 ;
+  /*Column for accross screen 1-5*/
+  grid-column-start: 6; 
+  grid-column-end: 6;  
+}
+aside { 
+    /*Row for up down 1-6*/
+  grid-row-start: 3;
+  grid-row-end: 5 ;
+  /*Column for accross screen 1-5*/
+  grid-column-start: 6; 
+  grid-column-end: 6;
+    
+}
+#paragraph1{
+    /*Row for up down 1-6*/
+  grid-row-start: 4;
+  grid-row-end: 5 ;
+  /*Column for accross screen 1-4*/
+  grid-column-start: 2; 
+  grid-column-end: 4;
+    background-color: cadetblue;
+    margin: 0px;
+    
+}
+#paragraph2{
+  /*Row for up down 1-6*/
+  grid-row-start: 4;
+  grid-row-end: 5 ;
+  /*Column for accross screen 1-4*/
+  grid-column-start: 4; 
+  grid-column-end: 6; 
+    background-color:rebeccapurple;
+    margin: 0px;
+}
+#image1{
+    /*Row for up down 1-6*/
+  grid-row-start: 2;
+  grid-row-end: 4 ;
+  /*Column for accross screen 1-4*/
+  grid-column-start: 2; 
+  grid-column-end: 4;
+    background-color:aquamarine;
+}
+#image2{
+  /*Row for up down 1-6*/
+  grid-row-start: 2;
+  grid-row-end: 4 ;
+  /*Column for accross screen 1-4*/
+  grid-column-start: 4; 
+  grid-column-end: 6;
+    background-color:aqua;
+}
